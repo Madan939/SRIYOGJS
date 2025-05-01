@@ -5,7 +5,9 @@
 
 
 * {
-  font-family:"roboto";
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
 }
 .body{
   overflow-x: hidden;

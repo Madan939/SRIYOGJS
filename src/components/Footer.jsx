@@ -96,7 +96,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="flex items-center gap-1">
-                  <img src={telegram} alt="telegram" className="w-[22px] h-[22px]" />
+                  <img src={telegram} alt="telegram" className="w-[22px] h-[20.19px]" />
                   <img src={viber} alt="viber" className="w-[19.83px] h-[20.19px]" />
                   <img src={whatsApp} alt="whatsApp" className="w-[19.83px] h-[20.19px]" />
                   <span className="text-[16px] max-md:text-[17px]">+977-9852024365</span>
@@ -145,7 +145,7 @@ const Footer = () => {
         </section>
 
         <section className="w-full h-auto">
-          <img src="/src/assets/images/footer/footer.svg" className=" w-[1140px] h-auto mx-auto" alt="" />
+          <img src="/assets/images/footer/footer.svg" className=" w-[1140px] h-auto mx-auto" alt="" />
           <div className="h-[50px] bg-black w-full"></div>
         </section>
 

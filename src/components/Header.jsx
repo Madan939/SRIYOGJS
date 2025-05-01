@@ -1,7 +1,7 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import headerLogo from "/assets/images/header/logo.svg";
 import headerMail from "/assets/images/header/mail.svg";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 const Header = () => {
@@ -39,9 +39,11 @@ const Header = () => {
                     { path: "/contact", label: "Contact" },
                   ].map(({ path, label }) => (
                     <li key={path}>
-                      <Link to={path} className="hover:text-[#A52629]">
+                      <NavLink to={path} className={({ isActive }) =>
+                        isActive ? "text-[#A52629]" : "hover:text-[#A52629]"
+                      }>
                         {label}
-                      </Link>
+                      </NavLink>
                     </li>
                   ))}
                   <li>
@@ -81,9 +83,10 @@ const Header = () => {
               { path: "/contact", label: "Contact" },
             ].map(({ path, label }) => (
               <li key={path} className="hover:text-[#A52629]">
-                <Link to={path} onClick={() => setNavSection(false)} className="max-md:text-[17px]">
+                <NavLink to={path} onClick={() => setNavSection(false)} className={({ isActive }) =>
+                  isActive ? "text-[#A52629]" : "hover:text-[#A52629] max-md:text-[17px]"}>
                   {label}
-                </Link>
+                </NavLink>
               </li>
             ))}
             <li>
