@@ -1,0 +1,6 @@
+.custom-option-style option:hover {
+  background-color: #4b4b4b;
+  color: white;
+  font-family: 'Roboto';
+}
+
