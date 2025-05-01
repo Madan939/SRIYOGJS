@@ -21,7 +21,7 @@ const Timeline = () => {
                 <FaCreditCard />
               </div>
               <div className="w-[45%] bg-[#efefef]  pb-[20px] ml-auto rounded relative mt-10 max-md:ml-auto max-md:mr-0 max-md:w-[80%] max-lg:ml-auto max-lg:mr-0 max-lg:w-[80%]">
-                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] rounded-t  p-2">
+                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] rounded-t  p-2 max-md:text-[16px]">
                   <div className="absolute left-[-10px] top-[50%] -translate-y-1/2 w-0 h-0 border-t-[10px]  mb-[20px] border-t-transparent border-b-[10px] border-b-transparent border-r-[10px] border-r-[#862124] "></div>
                   Deployed in Apple iOS Store
                 </div>
@@ -40,7 +40,7 @@ const Timeline = () => {
                 <FaChevronLeft />
               </div>
               <div className="w-[45%] bg-[#efefef]  pb-[20px] mr-auto rounded relative mt-10 max-md:ml-auto max-md:mr-0 max-md:w-[80%] max-lg:ml-auto max-lg:mr-0 max-lg:w-[80%]">
-                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] rounded-t p-2 whitespace-nowrap max-md:text-[14px] ">
+                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] rounded-t p-2 whitespace-nowrap  max-md:text-[16px] ">
                   <div className="max-md:translate-x-0 absolute right-[-10px] top-[50%] -translate-y-1/2 w-0 h-0 border-t-[10px]  mb-[20px] border-t-transparent border-b-[10px] border-b-transparent border-l-[10px] border-l-[#862124] max-md:left-[-10px] max-md:right-auto max-md:border-l-0 max-md:border-r-[10px] max-md:border-r-[#862124] max-lg:left-[-10px] max-lg:right-auto max-lg:border-l-0 max-lg:border-r-[10px] max-lg:border-r-[#862124]"></div>
                   React Native on Android
                 </div>
@@ -58,7 +58,7 @@ const Timeline = () => {
                 <FaCreditCard />
               </div>
               <div className="w-[45%] bg-[#efefef]  pb-[20px] ml-auto rounded relative mt-10 max-md:ml-auto max-md:mr-0  max-md:w-[80%]  max-lg:ml-auto max-lg:mr-0 max-lg:w-[80%]">
-                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] rounded-t p-2 whitespace-nowrap max-md:text-[14px]">
+                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] rounded-t p-2 whitespace-nowrap  max-md:text-[16px]">
                   <div className="absolute left-[-10px] top-[50%] -translate-y-1/2 w-0 h-0 border-t-[10px]  mb-[20px] border-t-transparent border-b-[10px] border-b-transparent border-r-[10px] border-r-[#862124] max-md:left-[-10px] max-md:right-auto max-md:border-l-0 max-md:border-r-[10px] max-md:border-r-[#862124] max-lg:left-[-10px] max-lg:right-auto max-lg:border-l-0 max-lg:border-r-[10px] max-lg:border-r-[#862124]"></div>
                   Payment Integration in IME PAY
                 </div>
@@ -73,7 +73,7 @@ const Timeline = () => {
                 <FaCheck />
               </div>
               <div className="w-[45%] bg-[#efefef]  pb-[20px] mr-auto rounded relative mt-10 max-md:ml-auto max-md:mr-0  max-md:w-[80%]  max-lg:ml-auto max-lg:mr-0 max-lg:w-[80%]">
-                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] rounded-t p-2  whitespace-nowrap max-md:text-[14px]">
+                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] rounded-t p-2  whitespace-nowrap  max-md:text-[16px]">
                   <div className="absolute right-[-10px] top-[50%] -translate-y-1/2 w-0 h-0 border-t-[10px]  mb-[20px] border-t-transparent border-b-[10px] border-b-transparent border-l-[10px] border-l-[#862124] max-md:left-[-10px] max-md:right-auto max-md:border-l-0 max-md:border-r-[10px] max-md:border-r-[#862124] max-lg:left-[-10px] max-lg:right-auto max-lg:border-l-0 max-lg:border-r-[10px] max-lg:border-r-[#862124]"></div>
                   Verified in Microsoft for Startups
                 </div>
@@ -90,7 +90,7 @@ const Timeline = () => {
                 <FaHandshake />
               </div>
               <div className="w-[45%] bg-[#efefef]  pb-[20px] ml-auto rounded relative mt-10 max-md:ml-auto max-md:mr-0  max-md:w-[80%]  max-lg:ml-auto max-lg:mr-0 max-lg:w-[80%]">
-                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] rounded-t p-2 whitespace-nowrap max-md:text-[14px]">
+                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] rounded-t p-2 whitespace-nowrap  max-md:text-[16px]">
                   <div className="absolute left-[-10px] top-[50%] -translate-y-1/2 w-0 h-0 border-t-[10px]  mb-[20px] border-t-transparent border-b-[10px] border-b-transparent border-r-[10px] border-r-[#862124] max-md:left-[-10px] max-md:right-auto max-md:border-l-0 max-md:border-r-[10px] max-md:border-r-[#862124] max-lg:left-[-10px] max-lg:right-auto max-lg:border-l-0 max-lg:border-r-[10px] max-lg:border-r-[#862124]"></div>
                   MOU Between IME PAY and SRIYOG
                 </div>
@@ -106,7 +106,7 @@ const Timeline = () => {
                 <FaDownload />
               </div>
               <div className="w-[45%] bg-[#efefef]  pb-[20px] mr-auto rounded relative mt-10 max-md:ml-auto max-md:mr-0  max-md:w-[80%]  max-lg:ml-auto max-lg:mr-0 max-lg:w-[80%]">
-                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] rounded-t p-2 whitespace-nowrap max-md:text-[14px]">
+                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] rounded-t p-2 whitespace-nowrap  max-md:text-[16px]">
                   <div className="absolute right-[-10px] top-[50%] -translate-y-1/2 w-0 h-0 border-t-[10px]  mb-[20px] border-t-transparent border-b-[10px] border-b-transparent border-l-[10px] border-l-[#862124] max-md:left-[-10px] max-md:right-auto max-md:border-l-0 max-md:border-r-[10px] max-md:border-r-[#862124] max-lg:left-[-10px] max-lg:right-auto max-lg:border-l-0 max-lg:border-r-[10px] max-lg:border-r-[#862124]"></div>
                   100K+ Installations
                 </div>
@@ -122,7 +122,7 @@ const Timeline = () => {
                 <FaDownload />
               </div>
               <div className="w-[45%] bg-[#efefef]  pb-[20px] ml-auto rounded relative mt-10 max-md:ml-auto max-md:mr-0  max-md:w-[80%]  max-lg:ml-auto max-lg:mr-0 max-lg:w-[80%]">
-                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] p-2 rounded-t whitespace-nowrap max-md:text-[14px]">
+                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] p-2 rounded-t whitespace-nowrap  max-md:text-[16px]">
                   <div className="absolute left-[-10px] top-[50%] -translate-y-1/2 w-0 h-0 border-t-[10px]  mb-[20px] border-t-transparent border-b-[10px] border-b-transparent border-r-[10px] border-r-[#862124] max-md:left-[-10px] max-md:right-auto max-md:border-l-0 max-md:border-r-[10px] max-md:border-r-[#862124] max-lg:left-[-10px] max-lg:right-auto max-lg:border-l-0 max-lg:border-r-[10px] max-lg:border-r-[#862124]"></div>
                   5oK+ Installations
                 </div>
@@ -140,7 +140,7 @@ const Timeline = () => {
                 <FaRocket />
               </div>
               <div className="w-[45%] bg-[#efefef]  pb-[20px] mr-auto rounded relative mt-10 max-md:ml-auto max-md:mr-0  max-md:w-[80%]  max-lg:ml-auto max-lg:mr-0 max-lg:w-[80%]">
-                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] p-2 rounded-t whitespace-nowrap max-md:text-[14px]">
+                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] p-2 rounded-t whitespace-nowrap  max-md:text-[16px]">
                   <div className="absolute right-[-10px] top-[50%] -translate-y-1/2 w-0 h-0 border-t-[10px]  mb-[20px] border-t-transparent border-b-[10px] border-b-transparent border-l-[10px] border-l-[#862124] max-md:left-[-10px] max-md:right-auto max-md:border-l-0 max-md:border-r-[10px] max-md:border-r-[#862124] max-lg:left-[-10px] max-lg:right-auto max-lg:border-l-0 max-lg:border-r-[10px] max-lg:border-r-[#862124]"></div>
                   Officially Launched
                 </div>
@@ -158,7 +158,7 @@ const Timeline = () => {
                 <FaFlask />
               </div>
               <div className="w-[45%] bg-[#efefef]  pb-[20px] ml-auto rounded relative mt-10 max-md:ml-auto max-md:mr-0  max-md:w-[80%]  max-lg:ml-auto max-lg:mr-0 max-lg:w-[80%]">
-                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] rounded-t p-2 whitespace-nowrap max-md:text-[14px]">
+                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] rounded-t p-2 whitespace-nowrap  max-md:text-[16px]">
                   <div className="absolute left-[-10px] top-[50%] -translate-y-1/2 w-0 h-0 border-t-[10px]  mb-[20px] border-t-transparent border-b-[10px] border-b-transparent border-r-[10px] border-r-[#862124] max-md:left-[-10px] max-md:right-auto max-md:border-l-0 max-md:border-r-[10px] max-md:border-r-[#862124] max-lg:left-[-10px] max-lg:right-auto max-lg:border-l-0 max-lg:border-r-[10px] max-lg:border-r-[#862124]"></div>
                   Released Android App
                 </div>
@@ -176,7 +176,7 @@ const Timeline = () => {
                 <FaBolt />
               </div>
               <div className="w-[45%] bg-[#efefef]  pb-[20px] mr-auto rounded relative mt-10 max-md:ml-auto max-md:mr-0  max-md:w-[80%]  max-lg:ml-auto max-lg:mr-0 max-lg:w-[80%] ">
-                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] p-2 rounded-t whitespace-nowrap max-md:text-[14px]">
+                <div className="relative inline-block bg-[#862124] w-full text-[#fff] font-medium text-[20px] py-[15px] p-2 rounded-t whitespace-nowrap  max-md:text-[16px]">
                   <div className="absolute text-center right-[-10px] top-[50%] -translate-y-1/2 w-0 h-0 border-t-[10px]  mb-[20px] border-t-transparent border-b-[10px] border-b-transparent border-l-[10px] border-l-[#862124] max-md:left-[-10px] max-md:right-auto max-md:border-l-0 max-md:border-r-[10px] max-md:border-r-[#862124] max-lg:left-[-10px] max-lg:right-auto max-lg:border-l-0 max-lg:border-r-[10px] max-lg:border-r-[#862124]"></div>
                   Registration
                 </div>
