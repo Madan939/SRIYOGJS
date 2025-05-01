@@ -136,7 +136,7 @@ const Career = () => {
                 <option value="Dharan"className="max-md:text-black">Dharan</option>
               </select>
               <p className="text-white mb-5 hidden lg:block">Example : Biratnagar , kathmandu ...more</p>
-              <div className="flex justify-end max-md:justify-start">
+              <div className="flex justify-end ">
                 <Link to="/city" className="p-2 hidden lg:block rounded-md bg-[#8b181b] font-bold text-white cursor-pointer hover:bg-[#b02b2f] transition duration-300 ease-in-out">Browse All Cities</Link>
                 <Link to="/city" className="p-2 hidden max-md:block text-xs rounded-md bg-[#8b181b] font-bold text-white cursor-pointer hover:bg-[#b02b2f] transition duration-300 ease-in-out">Browse Cities</Link>
               </div>
