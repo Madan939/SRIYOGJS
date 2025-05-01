@@ -135,7 +135,7 @@ const Career = () => {
                 <option value="" className="max-md:text-black">All Professions</option>
                 <option value="UI/UX Designer" className="max-md:text-black">UI/UX Designer</option>
                 <option value="Web Developer" className="max-md:text-black">Web Developer</option>
-                <option value="Mern Stack Developer" className="max-md:text-black">Mern Stack Developer</option>
+                <option value="Mern Stack Developer" className="max-md:text-black">Mern Stack</option>
                 <option value="Flutter Developer" className="max-md:text-black">Flutter Developer</option>
                 <option value="React Native" className="max-md:text-black">React Native</option>
               </select>
@@ -197,7 +197,7 @@ const Career = () => {
      
       <section className="max-md:w-[89%] max-lg:w-[88%] max-w-[1140px] mx-auto mb-[56px]">
         <p className="text-[24px] font-bold text-center">Top Profiles</p>
-        <div className=" grid lg:grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-3 mt-[3rem] max-lg:mt-[1.5rem] gap-4">
+        <div className=" grid lg:grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 mt-[3rem] max-lg:mt-[1.5rem] gap-4">
           {topProfiles.map((item) => (
             <div className="flex max-lg:block items-center gap-0 w-auto   rounded-md max-lg:w-auto h-auto  max-lg:py-2" key={item.name}>
               <div className="">
@@ -215,7 +215,7 @@ const Career = () => {
         </div>
       </section>
 
-    =
+
       <section className="max-md:w-[88%] max-lg:w-[88%] max-w-[1140px] mx-auto mb-[56px] py-3 flex flex-wrap justify-between ">
         <div className="w-[369px] h-[183px] max-lg:w-[30.5%] max-md:h-[60px] max-lg:h-[90px] flex border-[#5B2429] border-[2px] justify-center items-center rounded-md cursor-pointer ">
           <div className="flex justify-between items-center w-[90%] ">
@@ -240,7 +240,7 @@ const Career = () => {
       {/* Recent Graduate Section */}
       <section className="max-md:w-[89%] max-lg:w-[88%] mb-[56px] max-w-[1140px] mx-auto">
         <p className="text-[24px] font-bold text-center">Recent Graduate Interns</p>
-        <div className=" grid lg:grid-cols-9 max-lg:grid-cols-4 max-md:grid-cols-4  mt-[3rem] gap-4 max-lg:gap-3 rounded-md">
+        <div className=" grid lg:grid-cols-9 max-lg:grid-cols-4 max-md:grid-cols-4  mt-[3rem] gap-4 max-lg:gap-4 rounded-md">
           {recentGraduate.map((item, idx) => (
             <div key={idx + 1} className="w-[88px] h-[148px] max-lg:w-auto max-lg:h-auto text-center  max-lg:py-3">
               <img src={item.image} alt={item.name} className=" mx-auto max-lg:w-auto max-lg:h-auto " />

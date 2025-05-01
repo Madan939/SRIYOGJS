@@ -23,7 +23,7 @@ const Welcome = () => {
             alt="Pracas Upreti"
           />
         </div>
-        <div className="px-1">
+        <div className="px-10 max-md:px-0">
           <p className="text-base text-justify ">
             <span className="ml-8  inline-block max-md:ml-0">
               SRIYOG पार्ट टाइम गर्न तथा काम गर्ने ब्यक्तीहरु पाउने नेपालकै ठुलो संजाल हो ।

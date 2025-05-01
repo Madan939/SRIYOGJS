@@ -47,7 +47,7 @@ const Cities = () => {
                     <img
                       alt={city.name}
                       src={city.image}
-                      className="w-full h-full object-cover brightness-75"
+                      className="w-full h-full object-cover brightness-75 inset-1"
                     />
                     <div className="absolute bottom-2 left-0 w-full text-white text-xl sm:text-2xl md:text-3xl font-bold px-4 py-2">
                       <div className="inline-block relative hover:after:w-full after:block after:h-[3px] after:bg-[#8b181b] after:w-0 transition-all duration-300 cursor-pointer">
