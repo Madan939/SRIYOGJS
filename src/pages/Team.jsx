@@ -77,16 +77,16 @@ const Team = () => {
       <Breadcrumb name={name} />
 
       {/* PRACAS CARD SECTION */}
-      <div className="max-w-[1140px]  max-lg:[88%] max-md:w-[87%]  mx-auto px-0 sm:px-6 lg:px-8 py-0">
-        <Card className="bg-[#efefef]  text-black w-full rounded-md border border-gray-300 ">
-          <div className="flex flex-col md:flex-row items-center gap-6">
+      <div className="max-w-[1140px]  max-lg:[88%] max-md:w-full  mx-auto px-0   py-0">
+        <Card className="bg-[#efefef]  text-black w-full rounded-md max-md:rounded-none border border-gray-300 ">
+          <div className="flex flex-col md:flex-row items-center gap-6 max-md:px-4">
             <div className="w-[260px] max-md:h-auto  flex  flex-col items-center">
               <Image
                 src={image}
                 preview={false}
                 alt="Pracas Upreti"
-                style={{ width: "100%", height:"auto", objectFit: "cover" }}
-                className=""
+                style={{ width: "100%", height:300, objectFit: "cover" }}
+                
               />
               <div className="-mt-8 text-2xl text-center font-bold ">
                 PRACAS Upreti
@@ -130,7 +130,7 @@ const Team = () => {
       </div>
 
       {/* TEAM GRID SECTION */}
-      <div className="max-w-[1140px] my-[56px] mx-auto  max-md:w-[87%] ">
+      <div className="max-w-[1140px] my-[56px] mx-auto  max-md:w-[87%] lg:px-8">
         <div
           className="grid gap-6"
           style={{
@@ -140,15 +140,15 @@ const Team = () => {
           {images.map((img, index) => (
             <Card
               key={index}
-              className="bg-[#efefef] text-black border rounded-md border-gray-300 flex flex-col items-center justify-center"
+              className="bg-[#efefef] py-4 text-black border rounded-md border-gray-300 flex flex-col items-center justify-center"
             >
               <img
                 preview={false}
                 src={img}
                 alt={`Team Member ${index + 1}`}
-                className="lg:h-[150px] max-md:h-[300px]"
+                className="lg:h-[150px] max-md:h-[300px] object-contain mx-auto "
               />
-              <div className="text-[24px] mt-2  font-semibold text-center">
+              <div className="text-[20px] mt-2  font-semibold text-center">
                 {names[index]}
               </div>
               <p className="text-[18px] text-center mb-2 ">{roles[index]}</p>
