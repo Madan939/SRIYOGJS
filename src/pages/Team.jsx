@@ -77,7 +77,7 @@ const Team = () => {
       <Breadcrumb name={name} />
 
       {/* PRACAS CARD SECTION */}
-      <div className="max-w-[1140px]  max-lg:[88%] max-md:w-[89%]  mx-auto px-0 sm:px-6 lg:px-8 py-0">
+      <div className="max-w-[1140px]  max-lg:[88%] max-md:w-[87%]  mx-auto px-0 sm:px-6 lg:px-8 py-0">
         <Card className="bg-[#efefef]  text-black w-full rounded-md border border-gray-300 ">
           <div className="flex flex-col md:flex-row items-center gap-6">
             <div className="w-[260px] max-md:h-auto  flex  flex-col items-center">
@@ -85,7 +85,8 @@ const Team = () => {
                 src={image}
                 preview={false}
                 alt="Pracas Upreti"
-                style={{ width: "100%", height: 300, objectFit: "cover" }}
+                style={{ width: "100%", height:"auto", objectFit: "cover" }}
+                className=""
               />
               <div className="-mt-8 text-2xl text-center font-bold ">
                 PRACAS Upreti
@@ -129,7 +130,7 @@ const Team = () => {
       </div>
 
       {/* TEAM GRID SECTION */}
-      <div className="max-w-[1140px] mb-[56px] mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+      <div className="max-w-[1140px] my-[56px] mx-auto  max-md:w-[87%] ">
         <div
           className="grid gap-6"
           style={{
@@ -141,11 +142,11 @@ const Team = () => {
               key={index}
               className="bg-[#efefef] text-black border rounded-md border-gray-300 flex flex-col items-center justify-center"
             >
-              <Image
+              <img
                 preview={false}
                 src={img}
                 alt={`Team Member ${index + 1}`}
-                style={{ width: "100%", height: 200, objectFit: "cover" }}
+                className="lg:h-[150px] max-md:h-[300px]"
               />
               <div className="text-[24px] mt-2  font-semibold text-center">
                 {names[index]}

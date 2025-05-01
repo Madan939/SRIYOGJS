@@ -167,12 +167,12 @@ const Feedback = () => {
         </form>
       </section> */}
       <section className='max-w-[1140px] max-md:w-full max-lg:w-[88%] mx-auto grid lg:grid-cols-5 max-lg:grid-cols-6 max-md:grid-cols-1 max-md:gap-0 max-lg:gap-5 gap-10 mb-[56px]'>
-        <div className='lg:col-span-2 max-lg:col-span-2 max-md:col-span-1 max-md:w-[89%] mx-auto max-md:mb-[30px]'>
+        <div className='lg:col-span-2 max-lg:col-span-2 max-md:col-span-1 max-md:w-[88%] mx-auto max-md:mb-[30px]'>
           <p className='font-medium text-[1.8rem] max-lg:text-[1.2rem] max-md:text-[1.1rem] mb-4'>Welcome to the Feature Request and Bug Report Submission Form</p>
-          <img className='mb-4' src="/src/assets/images/feedback/feedback.png" alt="feedback" />
+          <img className='mb-4' src="/assets/images/feedback/feedback.png" alt="feedback" />
           <p className='text-justify'>Use this form to request new features or suggest modification to existing features. Your use of this form is conditioned upon your reading and agreeing to the terms and conditions below. You can also use this forms to report suspected bugs in sriyog.com. We normally do not send personal replies to feature requests or bug reports . We do, however, read each and every message. We use the information to improve our products and services. Your comments, suggestions, and ideas for improvements are very important to us.</p>
         </div>
-        <div className='bg-[#efefef] rounded-md max-md:rounded-none lg:col-span-3 p-12 max-lg:p-8  max-md:p-4 max-lg:col-span-4'>
+        <div className='bg-[#efefef] rounded-md max-md:rounded-none lg:col-span-3 p-12 max-lg:p-8  max-md:px-8 max-lg:col-span-4'>
           <p className='font-medium text-[1.8rem] flex gap-2 items-center mb-4 max-lg:text-[1.2rem] max-md:text-[1.1rem]'><LuMessageCircleMore className='text-4xl max-md:text-2xl' />Suggestion/Feedback for a feature</p>
           <p className='text-justify mb-4 '>Fill in the details below regarding any new feature you wish to be implemented in Sriyog website. Your feedback and suggestions are highly appreciated. </p>
           <p className='mb-4'>Please provide your details.</p>

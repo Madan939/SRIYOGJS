@@ -8,16 +8,16 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 
 const Welcome = () => {
-   useEffect(()=>{
-      document.title="SRIYOG Welcome | Professional Marketplace"
-    },[]);
-  
+  useEffect(() => {
+    document.title = "SRIYOG Welcome | Professional Marketplace"
+  }, []);
+
   return (
     <div className="flex justify-center items-center mb-[56px]  max-w-[1140px] max-lg:w-[88%] max-md:w-[89%] mx-auto  sm:px-6  py-0">
       <Card className=" mt-12 shadow-2xl rounded-[6px]  ">
         <div className="flex justify-center items-center">
           <Image
-            className="w-24 mt-10 mb-10 h-20 justify-center items-center"
+            className="w-24  mb-10 h-20 justify-center items-center"
             src={image}
             preview={false}
             alt="Pracas Upreti"
@@ -25,15 +25,15 @@ const Welcome = () => {
         </div>
         <div className="px-1">
           <p className="text-base text-justify ">
-          <span className="ml-8  inline-block max-md:ml-0">
-    SRIYOG पार्ट टाइम गर्न तथा काम गर्ने ब्यक्तीहरु पाउने नेपालकै ठुलो संजाल हो ।
-  </span> फुर्सदको समयलाई अवसरमा परिणत गरि जिओलोकेशन सिस्टममा
+            <span className="ml-8  inline-block max-md:ml-0">
+              SRIYOG पार्ट टाइम गर्न तथा काम गर्ने ब्यक्तीहरु पाउने नेपालकै ठुलो संजाल हो ।
+            </span> फुर्सदको समयलाई अवसरमा परिणत गरि जिओलोकेशन सिस्टममा
             आधारित भइ १८ समूह अनि त्यसै समुह भित्र पर्ने १५० भन्दा बढी
             उप-समूहहरुमा काम गर्ने अवसर प्रदान गर्दछ ।
             <br />
             <br />
             SRIYOG is Nepal's largest network for finding part-time and working
-            people. Turning leisure time 
+            people. Turning leisure time
             into opportunities, based on the
             geolocation system, it provides the opportunity to work in 18 groups
             and more than 150 sub-groups within the same group.
@@ -100,27 +100,26 @@ const Welcome = () => {
           </p>
         </div>
 
-        <div className="w-48 h-52 mt-16 mx-10">
+        <div className="w-48 h-52 mt-16 mx-10 max-md:mx-0 ">
           <Image src={image2} alt="Pracas_signature" preview={false} />
         </div>
-        <div className="flex mx-14">
+        <div className="flex mx-14 max-md:mx-7">
           <p className="-mt-16 text-base font-semibold">
             प्रकाश उप्रेती
             <br />
             <span className="font-normal">संस्थापक</span>
             <br />
-              <div className="flex gap-2 mt-1">
+            <div className="flex gap-2 mt-1 mb-4">
+              <Link to="https://t.me/sriyog">
+                <FaTelegram className="text-[20px]  text-black hover:text-black inline-block" />
+              </Link>
+              <Link to="https://x.com/pracas" target="_blank">
+                <FaSquareXTwitter className="text-[20px]  text-black hover:text-black inline-block" />
+              </Link>
 
-             <Link to= "https://t.me/sriyog">
-             <FaTelegram   className="text-[20px]  text-black hover:text-black inline-block" />
-                                         </Link>
-                                         <Link to="https://x.com/pracas" target="_blank">
-                                         <FaSquareXTwitter className="text-[20px]  text-black hover:text-black inline-block" />
-                                    </Link>
-                                       
-                                         <Link to="https://www.linkedin.com/in/pracasupreti/">
-                                           <FaLinkedin className="text-[20px]  text-black hover:text-black inline-block" />
-                                         </Link>
+              <Link to="https://www.linkedin.com/in/pracasupreti/">
+                <FaLinkedin className="text-[20px]  text-black hover:text-black inline-block" />
+              </Link>
             </div>
           </p>
         </div>

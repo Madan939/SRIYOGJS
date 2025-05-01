@@ -8,8 +8,8 @@ const Services = () => {
   return (
     <>
     <Breadcrumb  name={name}/>
-        <section className="max-md:w-[89%] max-lg:w-[88%] pt-3 w-[100%] pr-[15px] pl-[15px]  max-w-[1140px] mb-16">
-      <h3 className="mb-[0.5rem] font-medium text-[1.75rem] text-left text-[#333]">All Professions</h3>
+        <section className="max-md:w-[89%] max-lg:w-[88%] pt-3 w-[100%] pr-[15px] pl-[15px]  max-w-[1140px] mx-auto mb-16">
+      <h3 className="mb-[0.5rem] font-bold text-[1.75rem] text-[#333] max-md:text-center ">All Professions</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8 p-4 mx-auto max-md:grid-cols-3 max-md:mx-auto max-md:gap-10 ">
         <div className=" group mt-5 w-[100px] h-[100px] flex flex-col justify-center items-center cursor-pointer text-center transition duration-200 hover:bg-gray-100 transform hover:scale-105">
           <img src="/assets/images/services/electrician.png" alt="Electrican"  className="h-[40px] w-[40px]"/>

@@ -35,7 +35,7 @@ const Cities = () => {
       <Breadcrumb name={name} />
 
       <div className="w-full flex justify-center  mb-[56px] px-4 sm:px-6 lg:px-8">
-        <div className="w-full max-w-[1140px]   ">
+        <div className="w-full max-w-[1140px]   max-md:w-[90%]">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-10">
             {cities.map((city, index) => (
               <Card
@@ -43,7 +43,7 @@ const Cities = () => {
                 className="overflow-hidden rounded-md  shadow-lg w-full"
                 bodyStyle={{ padding: 0 }}
                 cover={
-                  <div className="relative  h-48 sm:h-56 md:h-60 lg:h-48 xl:h-52">
+                  <div className="relative  lg:h-48 max-lg:h-auto xl:h-52">
                     <img
                       alt={city.name}
                       src={city.image}

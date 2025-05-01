@@ -5,7 +5,7 @@ const Press = () => {
     document.title = "SRIYOG Press | Professional Marketplace"
   });
   return (
-    <section className="bg-gray-100 pt-5 pb-5 flex justify-center align-middle w-full ">
+    <section className="bg-gray-100 py-[56px] flex justify-center align-middle w-full ">
       <div className=" bg-white p-5  text-justify max-w-[1140px] max-md:w-[89%] max-lg:w-[88%]">
         <div className="p-3">
           <h3 className="text-[#333] font-medium mb-2 leading-tight text-[35px] text-center">मेम्बरशिप मोडेल मा SRIYOG </h3>
@@ -55,7 +55,7 @@ const Press = () => {
 
             </p> */}
             <p className="font-normal leading-relaxed text-[#333] text-[18px] mb-4">
-              App Download Link :
+              App Download Link :&nbsp;
               <a
                 href="https://sriyog.com/www.bit.ly/sriyog"
                 className="text-[#007bff] text-[18px] hover:underline hover:text-blue-900"
@@ -63,7 +63,7 @@ const Press = () => {
                 Download
               </a>
               <br />
-              Website :
+              Website :&nbsp;
               <a
                 href="https://sriyog.com/www.sriyog.com"
                 className="text-[#007bff] text-[18px] hover:underline hover:text-blue-900"
@@ -84,23 +84,10 @@ const Press = () => {
                 </a>
               </div>
             </p>
-
-
-
-
-
           </div>
-
-
         </div>
-
-
       </div>
-
     </section>
-
-
-
   )
 }
 

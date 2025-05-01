@@ -511,8 +511,8 @@ const Media = () => {
     <>
       <Breadcrumb name={name} />
 
-      <div className="w-full px-4 sm:px-6 lg:px-8 mb-[56px]">
-        <div className="max-w-[1140px]   max-lg:[88%] max-md:w-[89%] mx-auto">
+      <div className="w-full px-4 max-md:px-0  lg:px-8 mb-[56px]">
+        <div className="max-w-[1140px]  max-lg:[88%] max-md:w-[89%] mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
             {mediaItems.map((item, index) => (
               <div key={index} className="flex  flex-col items-start p-5">

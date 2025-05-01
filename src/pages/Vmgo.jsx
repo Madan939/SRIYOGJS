@@ -86,9 +86,9 @@ const Vmgo = () => {
             </div>          
           </div>
           <div className='bg-[#efefef] flex justify-center items-center lg:w-[57%] max-lg:w-[65%] max-md:w-full rounded-md'>
-            <div className=' m-[70px] max-lg:m-6 max-md:my-8 max-md:mx-10'>
+            <div className=' m-[70px] max-lg:m-6 max-md:my-8 max-md:mx-9'>
               <p className='text-[1.6rem] font-bold leading-tight mb-[8px]'>Goals</p>
-              <ul className="list-disc space-y-[8px]">
+              <ul className="list-disc space-y-[8px] max-md:ml-4">
                 <li>
                   <p className='font-bold'>Facilitate Connections</p>
                   <p className='text-justify'>We believe in the power of direct communication and collaboration with businesses and professionals. Our platform provides tools and features that enable transparent and efficient interactions, fostering strong connections and mutual understanding.</p>
@@ -115,9 +115,9 @@ const Vmgo = () => {
         </div>
         <div className='flex flex-wrap justify-between  items-center'>
           <div className='bg-[#8b181b] flex justify-center items-center lg:w-[57%] max-lg:w-[65%] max-md:w-full rounded-md '>
-            <div className=' m-[70px] max-lg:m-6 max-md:my-8 max-md:mx-10'>
+            <div className=' m-[70px] max-lg:m-6 max-md:my-8 max-md:mx-9'>
               <p className='text-[1.6rem] font-bold leading-tight mb-[8px] text-white'>Objectives</p>
-              <ul className="list-disc space-y-[8px]">
+              <ul className="list-disc space-y-[8px] max-md:ml-4">
                 <li className='text-white'>
                   <p className='font-bold text-white'>Expand Reach</p>
                   <p className='text-justify text-white'>Expand our reach to new markets and demographics, ensuring that
