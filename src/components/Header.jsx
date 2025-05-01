@@ -1,6 +1,6 @@
 import React, {  useState } from "react";
-import headerLogo from "../assets/images/header/logo.svg";
-import headerMail from "../assets/images/header/mail.svg";
+import headerLogo from "/assets/images/header/logo.svg";
+import headerMail from "/assets/images/header/mail.svg";
 import { Link } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 

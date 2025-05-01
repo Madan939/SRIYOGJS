@@ -2,15 +2,15 @@ import React, { useEffect } from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import { Card } from "antd";
 
-import image1 from "../assets/images/cities/biratnagar.png";
-import image2 from "../assets/images/cities/kathmandu.png";
-import image3 from "../assets/images/cities/pokhara.png";
-import image4 from "../assets/images/cities/bharatpur.png";
-import image5 from "../assets/images/cities/birgunj.png";
-import image6 from "../assets/images/cities/janakpur.png";
-import image7 from "../assets/images/cities/dharan.png";
-import image8 from "../assets/images/cities/itahari.png";
-import image9 from "../assets/images/cities/damak.png";
+import image1 from "/assets/images/cities/biratnagar.png";
+import image2 from "/assets/images/cities/kathmandu.png";
+import image3 from "/assets/images/cities/pokhara.png";
+import image4 from "/assets/images/cities/bharatpur.png";
+import image5 from "/assets/images/cities/birgunj.png";
+import image6 from "/assets/images/cities/janakpur.png";
+import image7 from "/assets/images/cities/dharan.png";
+import image8 from "/assets/images/cities/itahari.png";
+import image9 from "/assets/images/cities/damak.png";
 
 const Cities = () => {
   useEffect(()=>{

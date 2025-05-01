@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react'
 import Breadcrumb from '../components/Breadcrumb';
-import c1 from "../assets/images/feature/1.svg";
-import c2 from "../assets/images/feature/2.svg";
-import c3 from "../assets/images/feature/3.svg";
-import c4 from "../assets/images/feature/4.svg";
-import c5 from "../assets/images/feature/5.svg";
-import c6 from "../assets/images/feature/6.svg";
-import c7 from "../assets/images/feature/7.svg";
-import c8 from "../assets/images/feature/8.svg";
-import c9 from "../assets/images/feature/9.svg";
+import c1 from "/assets/images/feature/1.svg";
+import c2 from "/assets/images/feature/2.svg";
+import c3 from "/assets/images/feature/3.svg";
+import c4 from "/assets/images/feature/4.svg";
+import c5 from "/assets/images/feature/5.svg";
+import c6 from "/assets/images/feature/6.svg";
+import c7 from "/assets/images/feature/7.svg";
+import c8 from "/assets/images/feature/8.svg";
+import c9 from "/assets/images/feature/9.svg";
 
 const Features = () => {
   const name="Features";

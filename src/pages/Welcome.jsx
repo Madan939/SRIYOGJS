@@ -1,7 +1,7 @@
 import { Card, Image } from "antd";
 import React, { useEffect } from "react";
-import image from "../assets/images/welcome/logo.png";
-import image2 from "../assets/images/welcome/prakash_sig.png";
+import image from "/assets/images/welcome/logo.png";
+import image2 from "/assets/images/welcome/prakash_sig.png";
 import { Link } from "react-router-dom";
 import { FaLinkedin, FaTelegram, } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";

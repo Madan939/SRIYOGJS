@@ -19,7 +19,7 @@ const How = () => {
 
         <div className="flex flex-col-reverse md:flex-row justify-between items-center  gap-8 ">
           <div className="md:w-[40%] w-full">
-            <img src="src/assets/images/how/first.png" alt="Search" className="w-full max-md:w-[60%] max-md:mx-auto " />
+            <img src="/assets/images/how/first.png" alt="Search" className="w-full max-md:w-[60%] max-md:mx-auto " />
           </div>
           <div className="md:w-[59%] w-full">
             <h3 className="text-2xl font-semibold text-gray-800 mb-2">Search</h3>
@@ -34,7 +34,7 @@ const How = () => {
 
         <div className="flex flex-col-reverse md:flex-row-reverse justify-between items-center gap-8">
           <div className="md:w-[40%] w-full">
-            <img src="src/assets/images/how/second.png" alt="Hire" className="w-full max-md:w-[60%] max-md:mx-auto" />
+            <img src="/assets/images/how/second.png" alt="Hire" className="w-full max-md:w-[60%] max-md:mx-auto" />
           </div>
           <div className="md:w-[58%] w-full">
             <h3 className="text-2xl font-semibold text-gray-800 mb-2">Hire</h3>
@@ -47,7 +47,7 @@ const How = () => {
 
         <div className="flex flex-col-reverse md:flex-row justify-between items-center  gap-8">
           <div className="md:w-[40%] w-full">
-            <img src="src/assets/images/how/third.png" alt="Instruct" className="w-full max-md:w-[60%] max-md:mx-auto" />
+            <img src="/assets/images/how/third.png" alt="Instruct" className="w-full max-md:w-[60%] max-md:mx-auto" />
           </div>
           <div className="md:w-[59%] w-full">
             <h3 className="text-2xl font-semibold text-gray-800 mb-2">Instruct</h3>
@@ -61,7 +61,7 @@ const How = () => {
 
         <div className="flex flex-col-reverse md:flex-row-reverse justify-between items-center gap-8">
           <div className="md:w-[40%] w-full">
-            <img src="src/assets/images/how/fourth.png" alt="Pay" className="w-full max-md:w-[60%] max-md:mx-auto" />
+            <img src="/assets/images/how/fourth.png" alt="Pay" className="w-full max-md:w-[60%] max-md:mx-auto" />
           </div>
           <div className="md:w-[59%] w-full">
             <h3 className="text-2xl font-semibold text-gray-800 mb-2">Pay</h3>

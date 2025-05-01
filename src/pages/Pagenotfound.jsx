@@ -19,7 +19,7 @@ const Pagenotfound = () => {
           </div>
         </div>
         <div className='lg:w-[25%]  hidden md:block'>
-          <img src="/src/assets/images/app/mobile.png" alt="mobile" className='h-96 mx-auto' />
+          <img src="/assets/images/app/mobile.png" alt="mobile" className='h-96 mx-auto' />
         </div>
       </section>
     </>

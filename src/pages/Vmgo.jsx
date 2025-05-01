@@ -6,12 +6,12 @@ import 'swiper/css/pagination';
 import 'swiper/css/free-mode';
 import 'swiper/css/effect-fade';
 import { Autoplay, EffectFade, FreeMode, Navigation, Pagination } from 'swiper/modules';
-import first from "../assets/images/vmgo/1.jpg";
-import second from "../assets/images/vmgo/2.jpg";
-import vision from "../assets/images/vmgo/vision.png";
-import mission from "../assets/images/vmgo/mission.png";
-import goal from "../assets/images/vmgo/goal.png";
-import objective from "../assets/images/vmgo/objective.png";
+import first from "/assets/images/vmgo/1.jpg";
+import second from "/assets/images/vmgo/2.jpg";
+import vision from "/assets/images/vmgo/vision.png";
+import mission from "/assets/images/vmgo/mission.png";
+import goal from "/assets/images/vmgo/goal.png";
+import objective from "/assets/images/vmgo/objective.png";
 const Vmgo = () => {
    useEffect(()=>{
       document.title="SRIYOG VMGO | Professional Marketplace"

@@ -1,19 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import join from "../assets/images/footer/join.svg";
-import mail from "../assets/images/footer/mail.svg";
-import footerLogo from "../assets/images/footer/logo.svg";
+import join from "/assets/images/footer/join.svg";
+import mail from "/assets/images/footer/mail.svg";
+import footerLogo from "/assets/images/footer/logo.svg";
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
-import telegram from "../assets/images/footer/telegram.svg";
-import viber from "../assets/images/footer/viber.svg";
-import whatsApp from "../assets/images/footer/whatsapp.svg";
-import missedCall from "../assets/images/footer/missed-call.svg";
-import googlePlay from "../assets/images/footer/google-play.svg";
-import playStore from "../assets/images/footer/play-store.svg";
-import facebook from "../assets/images/footer/facebook.svg";
-import tweeter from "../assets/images/footer/tweeter.svg";
-import linkedIn from "../assets/images/footer/linkedIn.svg";
-import youtube from "../assets/images/footer/youtube.svg";
+import telegram from "/assets/images/footer/telegram.svg";
+import viber from "/assets/images/footer/viber.svg";
+import whatsApp from "/assets/images/footer/whatsapp.svg";
+import missedCall from "/assets/images/footer/missed-call.svg";
+import googlePlay from "/assets/images/footer/google-play.svg";
+import playStore from "/assets/images/footer/play-store.svg";
+import facebook from "/assets/images/footer/facebook.svg";
+import tweeter from "/assets/images/footer/tweeter.svg";
+import linkedIn from "/assets/images/footer/linkedIn.svg";
+import youtube from "/assets/images/footer/youtube.svg";
 import { IoMdMail } from "react-icons/io";
 
 const Footer = () => {

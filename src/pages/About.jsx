@@ -1,22 +1,22 @@
 import React, { useEffect } from 'react';
-import Mayor from '../assets/images/about/mayor.jpg';
+import Mayor from '/assets/images/about/mayor.jpg';
 import { FaRegCircleDot } from 'react-icons/fa6';
-import team from "../assets/images/about/team.svg";
-import skills from "../assets/images/about/skills.svg";
-import building from "../assets/images/about/building.svg";
-import flag from "../assets/images/about/flag.svg";
+import team from "/assets/images/about/team.svg";
+import skills from "/assets/images/about/skills.svg";
+import building from "/assets/images/about/building.svg";
+import flag from "/assets/images/about/flag.svg";
 import Breadcrumb from '../components/Breadcrumb';
-import cs1 from "../assets/images/about/registration.jpg";
-import cs2 from "../assets/images/about/12-sep-2019.jpg";
-import cs3 from "../assets/images/about/maw.jpg";
-import cs4 from "../assets/images/about/karmashil-award.jpg";
-import cs5 from "../assets/images/about/ime-pay-mou.jpg";
-import cs6 from "../assets/images/about/sriyog-may-app.jpg";
-import pracas from "../assets/images/about/pracas_large.png";
-import pracasSignature from "../assets/images/about/prakash_sig.png";
-import telegram from "../assets/images/about/telegram.svg";
-import tweeter from "../assets/images/about/tweeter.svg";
-import linkedIn from "../assets/images/about/linkedin.svg"
+import cs1 from "/assets/images/about/registration.jpg";
+import cs2 from "/assets/images/about/12-sep-2019.jpg";
+import cs3 from "/assets/images/about/maw.jpg";
+import cs4 from "/assets/images/about/karmashil-award.jpg";
+import cs5 from "/assets/images/about/ime-pay-mou.jpg";
+import cs6 from "/assets/images/about/sriyog-may-app.jpg";
+import pracas from "/assets/images/about/pracas_large.png";
+import pracasSignature from "/assets/images/about/prakash_sig.png";
+import telegram from "/assets/images/about/telegram.svg";
+import tweeter from "/assets/images/about/tweeter.svg";
+import linkedIn from "/assets/images/about/linkedin.svg"
 import { A11y, FreeMode, Mousewheel, Scrollbar } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/scrollbar';

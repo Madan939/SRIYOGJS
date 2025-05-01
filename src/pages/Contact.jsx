@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 
 const Contact = () => {
     const card = [
-        { img: "/src/assets/images/contact/1.png", name: "Niranjan Sharma", field: "Project Manager", app: "Telegram", link: "https://t.me/niranjanpm" },
-        { img: "/src/assets/images/contact/2.png", name: "Aashis Sunar", field: "Business Development Officer", app: "WhatsApp", link: "https://wa.me/9779852024365" },
-        { img: "/src/assets/images/contact/3.png", name: "Suraj Majhi", field: "Business Manager", app: "Telegram", link: "https://t.me/sriyog" }
+        { img: "/assets/images/contact/1.png", name: "Niranjan Sharma", field: "Project Manager", app: "Telegram", link: "https://t.me/niranjanpm" },
+        { img: "/assets/images/contact/2.png", name: "Aashis Sunar", field: "Business Development Officer", app: "WhatsApp", link: "https://wa.me/9779852024365" },
+        { img: "/assets/images/contact/3.png", name: "Suraj Majhi", field: "Business Manager", app: "Telegram", link: "https://t.me/sriyog" }
     ]
     const name = "Contact";
      useEffect(()=>{

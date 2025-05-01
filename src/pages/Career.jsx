@@ -1,39 +1,30 @@
 import React, { useEffect, useRef, useState } from "react";
-import "../assets/css/career.css";
 import { FaCamera, FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { MdOutlinePhoneCallback } from "react-icons/md";
-import prakash from "../assets/images/career/prakash.svg";
-import anubhav from "../assets/images/career/anubhav.svg";
-import niranjan from "../assets/images/career/niranjan.svg";
-import lazuna from "../assets/images/career/lanjana.svg";
-import kriti from "../assets/images/career/kriti.svg";
-import suman from "../assets/images/career/suman.svg";
-import prakrit from "../assets/images/career/prakrit.svg";
-import sajjad from "../assets/images/career/sajjad.svg";
-import btn1 from "../assets/images/career/CV.svg";
-import btn2 from "../assets/images/career/Details.png";
-import btn3 from "../assets/images/career/Apply.png";
-import tp1 from "../assets/images/career/tp-1.svg";
-import tp2 from "../assets/images/career/tp-2.svg";
-import tp3 from "../assets/images/career/tp-3.svg";
-import tp4 from "../assets/images/career/tp-4.svg";
-import tp5 from "../assets/images/career/tp-5.svg";
-import tp6 from "../assets/images/career/tp-6.svg";
-import tp7 from "../assets/images/career/tp-7.svg";
-import tp8 from "../assets/images/career/tp-8.svg";
-import sl1 from "../assets/images/career/sl-1.png";
-import sl2 from "../assets/images/career/sl-2.svg";
-import sl3 from "../assets/images/career/sl-3.svg";
-import sl4 from "../assets/images/career/bizshala.png";
-import sl5 from "../assets/images/career/sl-5.svg";
-import sl6 from "../assets/images/career/sl-6.svg";
-import sl7 from "../assets/images/career/sl-7.svg";
-import sl8 from "../assets/images/career/sl-8.png";
-import sl9 from "../assets/images/career/sl-9.svg";
-import sl10 from "../assets/images/career/sl-10.svg";
-import sl11 from "../assets/images/career/ratopati.png";
-import sl12 from "../assets/images/career/setopati.png";
+import btn1 from "/assets/images/career/CV.svg";
+import btn2 from "/assets/images/career/Details.png";
+import btn3 from "/assets/images/career/Apply.png";
+import tp1 from "/assets/images/career/tp-1.svg";
+import tp2 from "/assets/images/career/tp-2.svg";
+import tp3 from "/assets/images/career/tp-3.svg";
+import tp4 from "/assets/images/career/tp-4.svg";
+import tp5 from "/assets/images/career/tp-5.svg";
+import tp6 from "/assets/images/career/tp-6.svg";
+import tp7 from "/assets/images/career/tp-7.svg";
+import tp8 from "/assets/images/career/tp-8.svg";
+import sl1 from "/assets/images/career/sl-1.png";
+import sl2 from "/assets/images/career/sl-2.svg";
+import sl3 from "/assets/images/career/sl-3.svg";
+import sl4 from "/assets/images/career/bizshala.png";
+import sl5 from "/assets/images/career/sl-5.svg";
+import sl6 from "/assets/images/career/sl-6.svg";
+import sl7 from "/assets/images/career/sl-7.svg";
+import sl8 from "/assets/images/career/sl-8.png";
+import sl9 from "/assets/images/career/sl-9.svg";
+import sl10 from "/assets/images/career/sl-10.svg";
+import sl11 from "/assets/images/career/ratopati.png";
+import sl12 from "/assets/images/career/setopati.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { A11y, Navigation, Grid, Mousewheel } from "swiper/modules";
 import 'swiper/css';
@@ -43,14 +34,14 @@ import { GrNext, GrPrevious } from "react-icons/gr";
 const Career = () => {
   const swiperRef = useRef(null);
   const recentJoined = [
-    { name: "Prakash", image: `${prakash}`, field: "React Js " },
-    { name: "Anubhav", image: `${anubhav}`, field: "UI/UX Designer" },
-    { name: "Niranjan", image: `${niranjan}`, field: "UI/UX Designer" },
-    { name: "Lazuna", image: `${lazuna}`, field: "UI/UX Designer" },
-    { name: "Kriti", image: `${kriti}`, field: "UI/UX Designer" },
-    { name: "Suman", image: `${suman}`, field: "UI/UX Designer" },
-    { name: "Prakrit", image: `${prakrit}`, field: "UI/UX Designer" },
-    { name: "Sajjad", image: `${sajjad}`, field: "UI/UX Designer" },
+    { name: "Prakash", image: "/assets/images/career/prakash.svg", field: "React Js " },
+    { name: "Anubhav", image: "/assets/images/career/anubhav.svg", field: "UI/UX Designer" },
+    { name: "Niranjan", image: "/assets/images/career/niranjan.svg", field: "UI/UX Designer" },
+    { name: "Lazuna", image: "/assets/images/career/lanjana.svg", field: "UI/UX Designer" },
+    { name: "Kriti", image: "/assets/images/career/kriti.svg", field: "UI/UX Designer" },
+    { name: "Suman", image: "/assets/images/career/suman.svg", field: "UI/UX Designer" },
+    { name: "Prakrit", image: "/assets/images/career/prakrit.svg", field: "UI/UX Designer" },
+    { name: "Sajjad", image: "/assets/images/career/sajjad.svg", field: "UI/UX Designer" },
   ];
   const topProfiles = [
     { name: "Prakash Upreti ", image: `${tp1}`, field: "Social Media Manager", experience: "9+ Years", salary: "350K Expected" },
@@ -63,24 +54,22 @@ const Career = () => {
     { name: "Sobitmaan Shrestha", image: `${tp8}`, field: "Chief Digital Strategist", experience: "2+ Years", salary: "35K Expected" }
   ]
   const recentGraduate = [
-    { name: "Prakriti", image: `${prakash}`, field: "React Js " },
-    { name: "Reejena", image: `${anubhav}`, field: "UI/UX Designer" },
-    { name: "Niranjan", image: `${niranjan}`, field: "UI/UX Designer" },
-    { name: "Lazuna", image: `${lazuna}`, field: "UI/UX Designer" },
-    { name: "Kritika", image: `${kriti}`, field: "UI/UX Designer" },
-    { name: "Suman", image: `${suman}`, field: "UI/UX Designer" },
-    { name: "Prakrit", image: `${prakrit}`, field: "UI/UX Designer" },
-    { name: "Sajjad", image: `${sajjad}`, field: "UI/UX Designer" },
-    { name: "Ishan", image: `${kriti}`, field: "UI/UX Designer" },
-    { name: "Prakash", image: `${suman}`, field: "UI/UX Designer" },
-    { name: "Avinab", image: `${prakrit}`, field: "React Js " },
-    { name: "Nirajan", image: `${sajjad}`, field: "UI/UX Designer" },
-    { name: "Lorento", image: `${kriti}`, field: "UI/UX Designer" },
-    { name: "Kritak", image: `${suman}`, field: "UI/UX Designer" },
-    { name: "Suman", image: `${prakrit}`, field: "UI/UX Designer" },
-    { name: "Prakrit", image: `${sajjad}`, field: "UI/UX Designer" },
-    { name: "Sajjad", image: `${kriti}`, field: "UI/UX Designer" },
-    { name: "Yoho", image: `${suman}`, field: "UI/UX Designer" },
+    { name: "Prakash", image: "/assets/images/career/prakash.svg", field: "React Js " },
+    { name: "Anubhav", image: "/assets/images/career/anubhav.svg", field: "UI/UX Designer" },
+    { name: "Niranjan", image: "/assets/images/career/niranjan.svg", field: "UI/UX Designer" },
+    { name: "Lazuna", image: "/assets/images/career/lanjana.svg", field: "UI/UX Designer" },
+    { name: "Kriti", image: "/assets/images/career/kriti.svg", field: "UI/UX Designer" },
+    { name: "Suman", image: "/assets/images/career/suman.svg", field: "UI/UX Designer" },
+    { name: "Prakrit", image: "/assets/images/career/prakrit.svg", field: "UI/UX Designer" },
+    { name: "Sajjad", image: "/assets/images/career/sajjad.svg", field: "UI/UX Designer" },
+    { name: "Prakash", image: "/assets/images/career/prakash.svg", field: "React Js " },
+    { name: "Anubhav", image: "/assets/images/career/anubhav.svg", field: "UI/UX Designer" },
+    { name: "Niranjan", image: "/assets/images/career/niranjan.svg", field: "UI/UX Designer" },
+    { name: "Lazuna", image: "/assets/images/career/lanjana.svg", field: "UI/UX Designer" },
+    { name: "Kriti", image: "/assets/images/career/kriti.svg", field: "UI/UX Designer" },
+    { name: "Suman", image: "/assets/images/career/suman.svg", field: "UI/UX Designer" },
+    { name: "Prakrit", image: "/assets/images/career/prakrit.svg", field: "UI/UX Designer" },
+    { name: "Sajjad", image: "/assets/images/career/sajjad.svg", field: "UI/UX Designer" },
   ];
   const sliderImage = [
     { id: 1, image: `${sl1}`, name: "AP1 HD" },
@@ -101,12 +90,12 @@ const Career = () => {
   });
   const [countryCode, setCountryCode] = useState("+977");
   const flags = {
-    "+977": "/src/assets/images/career/Nepal.svg",
-    "+1": "/src/assets/images/career/USA.svg",
-    "+91": "/src/assets/images/career/India.svg",
-    "+44": "/src/assets/images/career/UK.svg",
-    "+61": "/src/assets/images/career/Australia.svg",
-    "+971": "/src/assets/images/career/UAE.svg",
+    "+977": "/assets/images/career/Nepal.svg",
+    "+1": "/assets/images/career/USA.svg",
+    "+91": "/assets/images/career/India.svg",
+    "+44": "/assets/images/career/UK.svg",
+    "+61": "/assets/images/career/Australia.svg",
+    "+971": "/assets/images/career/UAE.svg",
   };
 
   return (
