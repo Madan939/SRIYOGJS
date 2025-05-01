@@ -38,7 +38,7 @@ const images = [
 const names = [
   "Sameer Sharma",
   "Achut Chalise",
-  "Kishor Baksota",
+  "Kishor Baskota",
   "Pankaj Ghmimire",
   "Sudhir Nepal",
   "Aavash Adhikari",
