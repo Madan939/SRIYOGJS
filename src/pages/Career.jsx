@@ -113,7 +113,7 @@ const Career = () => {
     <div className="max-w-[full] m-auto">
    
       <section className="relative w-full mb-[56px]">
-        <div className="absolute inset-0 bg-[url('src/assets/images/career/hero-banner.jpg')] bg-cover bg-center bg-no-repeat brightness-50 z-0"></div>
+        <div className="absolute inset-0 bg-[url('/assets/images/career/hero-banner.jpg')] bg-cover bg-center bg-no-repeat brightness-50 z-0"></div>
         <div className="relative z-2 text-white font-semibold max-md:w-full max-md:text-center max-w-[1120px] mx-auto max-md:pt-[100px] pt-[50px]">
           <p className="text-[14px]">Welcome to SRIYOG Career</p>
           <p className="text-[65px] max-md:text-[35px]">Hire the</p>
