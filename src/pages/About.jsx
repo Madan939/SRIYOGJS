@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import {Helmet} from "react-helmet";
 import Mayor from '/assets/images/about/mayor.jpg';
 import { FaRegCircleDot } from 'react-icons/fa6';
 import team from "/assets/images/about/team.svg";
@@ -49,6 +50,9 @@ const About = () => {
   }, []);
   return (
     <>
+      <Helmet>
+        <meta property="og:title" content="SRIYOG About| Professional Marketplace" />
+      </Helmet>
       <Breadcrumb name={name} des={des} />
       {/* First Section */}
       <section className="max-w-[1140px] mx-auto mb-[56px] max-lg:w-[88%] max-md:w-[89%]">
