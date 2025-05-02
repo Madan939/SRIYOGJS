@@ -84,7 +84,7 @@ const Header = () => {
             ].map(({ path, label }) => (
               <li key={path} className="hover:text-[#A52629]">
                 <NavLink to={path} onClick={() => setNavSection(false)} className={({ isActive }) =>
-                  isActive ? "text-[#A52629]" : "hover:text-[#A52629] max-md:text-[17px]"}>
+                  isActive ? "text-[#A52629] max-md:text-[17px]" : "hover:text-[#A52629] max-md:text-[17px]"}>
                   {label}
                 </NavLink>
               </li>

@@ -59,10 +59,6 @@ const Accordion = () => {
           content="Yearly membership fee is NPR 1,999. IME Pay is our Payment Partner. You need to pay from it. You have to search SRIYOG Membership and pay the amount for yourself or for others. Consumer ID is the person who needs membership."
         />
         <FaqItem
-          title="Where is the office?"
-          content="Our office is in Kamalpokhari, Kathmandu, Nepal"
-        />
-        <FaqItem
           title="How to register details in SRIYOG?"
           content="One has to download the app from the mobile phone and register the details by spending SRIYOG on Google Play Store .To do this on a computer or laptop, using Chrome, Firefox, Opera, Edge, Brave or any other web browser, go to www.sriyog.com website and click on the join button on the top right side or go to www.sriyog.com join and fill in the details."
         />

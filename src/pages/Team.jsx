@@ -36,7 +36,7 @@ const images = [
 ];
 
 const names = [
-  "Sameer Sharma",
+  "Yogendra Dhamala",
   "Achut Chalise",
   "Kishor Baskota",
   "Pankaj Ghmimire",
@@ -148,10 +148,10 @@ const Team = () => {
                 alt={`Team Member ${index + 1}`}
                 className="lg:h-[150px] max-md:h-[300px] object-contain mx-auto "
               />
-              <div className="text-[20px] mt-2  font-semibold text-center">
+              <div className="text-[19px] mt-2  font-semibold text-center">
                 {names[index]}
               </div>
-              <p className="text-[18px] text-center mb-2 ">{roles[index]}</p>
+              <p className="text-[17px] text-center mb-2 ">{roles[index]}</p>
             </Card>
           ))}
         </div>
