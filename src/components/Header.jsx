@@ -22,7 +22,7 @@ const Header = () => {
                   alt="header-logo"
                   className="w-[198.98px] h-[55px] object-contain max-md:w-[160px] max-lg:h-auto"
                 />
-                <span className="text-[18px] text-[#333] font-semibold max-md:text-[17px]">
+                <span className="text-[18px]  max-md:text-[17px]">
                   &nbsp;&nbsp;| Career
                 </span>
               </Link>
@@ -30,7 +30,7 @@ const Header = () => {
 
             <div>
               <div className="hidden lg:block">
-                <ul className="flex list-none space-x-[35px] items-center text-[14px] font-semibold text-[#333]">
+                <ul className="flex list-none space-x-[35px] items-center text-[14px]  text-[#333]">
                   {[
                     { path: "/", label: "Home" },
                     { path: "/about", label: "About" },
@@ -40,7 +40,7 @@ const Header = () => {
                   ].map(({ path, label }) => (
                     <li key={path}>
                       <NavLink to={path} className={({ isActive }) =>
-                        isActive ? "text-[#A52629]" : "hover:text-[#A52629]"
+                        isActive ? "text-[#A52629] font-bold" : "hover:text-[#A52629] font-semibold"
                       }>
                         {label}
                       </NavLink>

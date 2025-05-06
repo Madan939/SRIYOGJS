@@ -12,9 +12,9 @@ const Contact = () => {
         { img: "/assets/images/contact/3.png", name: "Suraj Majhi", field: "Business Manager", app: "Telegram", link: "https://t.me/sriyog" }
     ]
     const name = "Contact";
-     useEffect(()=>{
-        document.title="SRIYOG Contact | Professional Marketplace"
-      },[]);
+    useEffect(() => {
+        document.title = "SRIYOG Contact | Professional Marketplace"
+    }, []);
     return (
         <>
             <Breadcrumb name={name} />
@@ -69,6 +69,7 @@ const Contact = () => {
                             <div className='w-[30%] max-md:w-full'>
                                 <label htmlFor="country">Country Code</label><br />
                                 <select name="countryCode" id="country" className='w-full px-2 py-[0.65rem] mt-1 rounded-md border-[1.5px] bg-[#ffff]  max-md:mb-4' required>
+                                    <option value="+977-">Nepal (+977)</option>
                                     <option value="+93-">Afghanistan (+93)</option>
                                     <option value="+355-">Albania (+355)</option>
                                     <option value="+213-">Algeria (+213)</option>
@@ -185,7 +186,6 @@ const Contact = () => {
                                     <option value="+258-">Mozambique (+258)</option>
                                     <option value="+95-">Myanmar (+95)</option>
                                     <option value="+264-">Namibia (+264)</option>
-                                    <option value="+977-">Nepal (+977)</option>
                                     <option value="+31-">Netherlands (+31)</option>
                                     <option value="+64-">New Zealand (+64)</option>
                                     <option value="+505-">Nicaragua (+505)</option>
@@ -215,7 +215,7 @@ const Contact = () => {
                                 <label htmlFor="phone">Phone</label><br />
                                 <input type="text" name="" id="phone" placeholder='Phone' className='mt-1 px-3 py-2 rounded-md w-full border-[1.5px]  max-md:mb-4' required />
                             </div>
-                            <div className='w-[20%] max-md:w-full'>
+                            <div className='w-[25%] max-md:w-full'>
                                 <label htmlFor="ext">Extension</label><br />
                                 <input type="text" name="" id="ext" placeholder='Extension' className='mt-1 px-3 py-2 rounded-md w-full border-[1.5px] ' required />
                             </div>

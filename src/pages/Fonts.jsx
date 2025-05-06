@@ -91,7 +91,7 @@ const Fonts = () => {
   return (
     <>
       <Breadcrumb name={name} des={des} />
-      <section className='max-w-[1140px] mx-auto grid lg:grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  max-lg:w-[88%] max-md:w-[87%] gap-8 mb-[56px]'>
+      <section className='max-w-[1140px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  md:w-[88%] w-[89%] gap-8 mb-[56px]'>
         {card.map((item, idx) => (
           <div key={idx + 1} className='bg-[#fff] hover:-translate-y-4 transition duration-500 ease-in-out py-[40px] text-center shadow-[0_0_10px_rgba(0,0,0,0.3)] rounded-md'>
             <img src={item.image} alt={item.name} className='mb-4 h-[170px] w-full' />

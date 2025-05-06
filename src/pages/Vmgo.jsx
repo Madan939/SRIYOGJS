@@ -13,9 +13,9 @@ import mission from "/assets/images/vmgo/mission.png";
 import goal from "/assets/images/vmgo/goal.png";
 import objective from "/assets/images/vmgo/objective.png";
 const Vmgo = () => {
-   useEffect(()=>{
-      document.title="SRIYOG VMGO | Professional Marketplace"
-    },[]);
+  useEffect(() => {
+    document.title = "SRIYOG VMGO | Professional Marketplace"
+  }, []);
   return (
     <>
       <section className='mb-[56px]'>
@@ -41,21 +41,21 @@ const Vmgo = () => {
         </Swiper>
       </section>
       <p className='text-center text-[1.6rem] font-bold leading-tight mb-[56px] max-md:w-[89%] mx-auto'>Vision, Mission, Goals and Objectives</p>
-      
-      <section className='mb-[56px] max-w-[1140px] mx-auto max-lg:w-[88%] max-md:w-[89%]'>
+
+      <section className='mb-[56px] lg:w-[1140px] mx-auto md:w-[88%] w-[89%]'>
         <div className='flex flex-wrap justify-around mb-[56px]'>
-          <img src={vision} alt="vision" className='max-md:w-[35%] max-md:p-4'/>
+          <img src={vision} alt="vision" className='max-md:w-[35%] max-md:p-4' />
           <img src={mission} alt="mission" className='max-md:w-[35%] max-md:p-4' />
           <img src={goal} alt="gola" className='max-md:w-[35%] max-md:p-4' />
-          <img src={objective} alt="objective" className='max-md:w-[35%] max-md:p-4'/>
+          <img src={objective} alt="objective" className='max-md:w-[35%] max-md:p-4' />
         </div>
         <div className='flex flex-wrap justify-between mb-[56px] items-center mx-auto'>
-          <div className='hidden md:block max-lg:w-[40%]'>
-            <div className='lg:w-[43%] md:w-[43%] mx-auto flex justify-center items-center'>
-            <img src={vision} alt="vision" />
-            </div>          
+          <div className='hidden md:block md:w-[40%]'>
+            <div className=' mx-auto flex justify-center items-center'>
+              <img src="/public/assets/images/vmgo/visions.jpg" alt="vision" className='rounded-lg'/>
+            </div>
           </div>
-          <div className='bg-[#efefef] flex justify-center items-center lg:w-[57%] md:w-[57%] max-md:w-full max-lg:w-[60%] rounded-md'>
+          <div className='bg-[#efefef] flex justify-center items-center lg:w-[57%] md:w-[57%] w-full  rounded-md'>
             <div className=' m-[70px] max-lg:m-8 max-md:my-8 max-md:mx-9'>
               <p className='text-[1.6rem] font-bold leading-tight mb-[8px]'>Vision</p>
               <p className='text-justify mb-[8px] '>Our vision at SRIYOG is to create a future where every individual has access to opportunities that match their skills and aspirations.     </p>
@@ -73,19 +73,19 @@ const Vmgo = () => {
               </p>
             </div>
           </div>
-          <div className='hidden md:block  max-lg:w-[40%]'>
-            <div className='lg:w-[43%] mx-auto md:w-[43%] flex justify-center items-center'>
-            <img src={mission} alt="mission" />
-            </div>          
+          <div className='hidden md:block  md:w-[40%]'>
+            <div className='flex justify-center items-center'>
+              <img src="/public/assets/images/vmgo/mission.jpg" alt="mission" className='rounded-lg'/>
+            </div>
           </div>
         </div>
         <div className='flex flex-wrap justify-between mb-[56px] items-center'>
-        <div className='hidden md:block max-lg:w-[35%]'>
-            <div className='lg:w-[43%] md:w-[43%] mx-auto flex justify-center items-center'>
-            <img src={goal} alt="goal" />
-            </div>          
+          <div className='hidden md:block md:w-[40%] '>
+            <div className=' mx-auto flex justify-center items-center'>
+              <img src="/public/assets/images/vmgo/goals.jpg" alt="goal" className='rounded-lg'/>
+            </div>
           </div>
-          <div className='bg-[#efefef] flex justify-center items-center lg:w-[57%] max-lg:w-[65%] max-md:w-full rounded-md'>
+          <div className='bg-[#efefef] flex justify-center items-center lg:w-[57%] md:w-[65%] w-full rounded-md'>
             <div className=' m-[70px] max-lg:m-6 max-md:my-8 max-md:mx-9'>
               <p className='text-[1.6rem] font-bold leading-tight mb-[8px]'>Goals</p>
               <ul className="list-disc space-y-[8px] max-md:ml-4">
@@ -114,7 +114,7 @@ const Vmgo = () => {
           </div>
         </div>
         <div className='flex flex-wrap justify-between  items-center'>
-          <div className='bg-[#8b181b] flex justify-center items-center lg:w-[57%] max-lg:w-[65%] max-md:w-full rounded-md '>
+          <div className='bg-[#8b181b] flex justify-center items-center lg:w-[57%] md:w-[65%] w-full rounded-md '>
             <div className=' m-[70px] max-lg:m-6 max-md:my-8 max-md:mx-9'>
               <p className='text-[1.6rem] font-bold leading-tight mb-[8px] text-white'>Objectives</p>
               <ul className="list-disc space-y-[8px] max-md:ml-4">
@@ -146,10 +146,10 @@ const Vmgo = () => {
               </ul>
             </div>
           </div>
-          <div className='hidden md:block max-lg:w-[35%] '>
-            <div className='lg:w-[43%] md:w-[43%]  mx-auto flex justify-center items-center'>
-            <img src={objective} alt="objective" />
-            </div>          
+          <div className='hidden md:block md:w-[40%] '>
+            <div className='  mx-auto flex justify-center items-center'>
+              <img src="/public/assets/images/vmgo/objectives.jpg" alt="objective" className='rounded-lg'/>
+            </div>
           </div>
 
         </div>

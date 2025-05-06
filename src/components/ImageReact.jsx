@@ -9,7 +9,7 @@ const ImageReact = (props) => {
 
   return (
     <>
-      <div className="max-w-[1140px] max-lg:w-[88%] max-md:w-[87%] mx-auto mb-[56px] grid max-md:grid-cols-1 max-lg:grid-cols-3 lg:grid-cols-4 gap-10">
+      <div className="lg:w-[1140px] md:w-[88%] w-[89%] mx-auto mb-[56px] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10">
         {data.map((slide, index) => (
           <div onClick={() => handleClick(index)} key={index}>
             <p className="text-[#333] mb-4 mx-2 font-medium">{slide.title}</p>

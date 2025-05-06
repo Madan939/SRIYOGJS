@@ -1,9 +1,9 @@
-import React from 'react'
+  import React from 'react'
 
-const Breadcrumb = ({name,des}) => {
+const Breadcrumb = ({ name, des }) => {
   return (
     <>
-    <section className="mb-[56px] bg-[#8b181b] h-[160px] w-full flex justify-center items-center">
+      <section className="mb-[56px] bg-[#8b181b] h-[160px] w-full flex justify-center items-center">
         <section className="w-[1140px] max-lg:w-[88%] max-md:w-[89%]">
           <div className="">
             <div className=" ">

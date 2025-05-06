@@ -30,7 +30,7 @@ const Features = () => {
   return (
     <>
     <Breadcrumb name={name} des={des}/>
-    <section className='max-w-[1140px] max-md:w-[88%] max-lg:w-[88%] mx-auto mb-[56px] grid lg:grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-10  h-auto'>
+    <section className='max-w-[1140px] max-md:w-[88%] max-lg:w-[88%] mx-auto mb-[56px] grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-10  h-auto'>
       {card.map((item)=>(
         <div key={item.name} className=' flex justify-center items-center  border-[1.25px] rounded-md '>
           <div className='p-[30px]'>

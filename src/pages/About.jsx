@@ -75,10 +75,10 @@ const About = () => {
                 "But agencies are creating a hectic schedule, paying low to their employees and charging much higher to the service seekers."
               ].map((text, index) => (
                 <li key={index} className="flex items-start">
-                  <span className="mt-1 mr-2 text-primary">
-                    <FaRegCircleDot />
+                  <span className=" mr-2 text-primary">
+                    <FaRegCircleDot className='mt-1'/>
                   </span>
-                  <span className="text-justify">{text}</span>
+                  <span className="text-justify ">{text}</span>
                 </li>
               ))}
             </ul>
@@ -91,7 +91,6 @@ const About = () => {
               </p>
             </div>
           </div>
-
         </div>
       </section>
       {/* Second Section */}
@@ -162,7 +161,7 @@ const About = () => {
         <div className='w-[38%] max-md:w-full hidden max-md:block max-md:mb-[20px]'>
           <img src={pracas} alt="pracas" className='w-full h-auto' />
         </div>
-        <div className='w-[59%] max-md:w-full max-lg:w-[65%]'>
+        <div className='w-full md:w-[60%] lg:w-[59%]'>
           <hr className="h-[5px] w-[140px] bg-[#8b181b] mb-3" />
           <p className="text-3xl font-semibold text-[#8b181b] mb-3">The Man Behind SRIYOG</p>
           <p className='mb-3 text-justify'>Pracas Upreti's journey from a startup founder to a technology-driven change-maker in Biratnagar, Nepal, exemplifies the profound impact that individuals can have when they combine innovation with a commitment to social responsibility.</p>

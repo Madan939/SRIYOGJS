@@ -1,0 +1,50 @@
+/* Custom Slick dot styles */
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots li button:before {
+    display: none;
+}
+
+.slick-dots li button {
+    background: #ccc;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin: 0 5px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    transition: all .2s ease-in-out;
+    vertical-align: top;
+    width: 10px;
+}
+
+li.slick-active button {
+    background: #00243d;
+    width: 32px;
+}
+
+.slick-dots li {
+    width: auto;
+    bottom: -30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .slick-dots li {
+        bottom: -15px;
+    }
+}
+
+/* .slick-dots li {
+    width: 32px;
+    height: 12px;
+    vertical-align: middle;
+    transition: all .9s ease-in-out;
+    z-index: 9999;
+} */

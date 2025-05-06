@@ -13,9 +13,10 @@ import image8 from "/assets/images/cities/itahari.png";
 import image9 from "/assets/images/cities/damak.png";
 
 const Cities = () => {
-  useEffect(()=>{
-        document.title="SRIYOG City | Professional Marketplace"
-      },[]);
+  useEffect(() => {
+    document.title = "SRIYOG City | Professional Marketplace";
+  }, []);
+
   const name = " Major Cities";
 
   const cities = [
@@ -34,24 +35,25 @@ const Cities = () => {
     <>
       <Breadcrumb name={name} />
 
-      <div className="w-full flex justify-center  mb-[56px] px-4 sm:px-6 lg:px-8">
-        <div className="w-full max-w-[1140px]   max-md:w-[90%]">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-10">
+      <div className="w-full flex justify-center mb-[56px] px-4 sm:px-6 lg:px-8">
+        <div className="w-full max-w-[1140px] max-md:w-[90%]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             {cities.map((city, index) => (
               <Card
                 key={index}
-                className="overflow-hidden rounded-md  shadow-lg w-full"
+                className="overflow-hidden rounded-md shadow-lg w-full"
                 bodyStyle={{ padding: 0 }}
                 cover={
-                  <div className="relative  lg:h-48 max-lg:h-auto xl:h-52">
+                  <div className="relative group lg:h-48 max-lg:h-auto xl:h-52">
                     <img
                       alt={city.name}
                       src={city.image}
-                      className="w-full h-full object-cover brightness-75 inset-1"
+                      className="w-full h-full cursor-pointer object-cover brightness-75 inset-1"
                     />
-                    <div className="absolute bottom-2 left-0 w-full text-white text-xl sm:text-2xl md:text-3xl font-bold px-4 py-2">
-                      <div className="inline-block relative hover:after:w-full after:block after:h-[3px] after:bg-[#8b181b] after:w-0 transition-all duration-300 cursor-pointer">
-                        {city.name}
+                    <div className="absolute bottom-2 left-0 w-full text-white text-xl cursor-pointer sm:text-2xl md:text-3xl font-bold px-4 py-2">
+                      <div className="inline-block relative ">
+                        <span className="relative    z-2">{city.name}</span>
+                        <span className="absolute left-0 bottom-0 h-[4px] w-0  bg-white transition-all duration-500 ease-in-out group-hover:w-full"></span>
                       </div>
                     </div>
                   </div>

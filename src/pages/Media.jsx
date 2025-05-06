@@ -515,14 +515,14 @@ const Media = () => {
         <div className="max-w-[1140px]  max-lg:[88%] max-md:w-[89%] mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
             {mediaItems.map((item, index) => (
-              <div key={index} className="flex  flex-col items-start p-5">
+              <div key={index} className="flex  flex-col items-start p-5  border-[1.25px] border-[#efefef] hover:shadow-md rounded-md">
                 <img src={item.img} alt="Media" className="w-2/3 h-28 object-contain" />
                 <p className="mt-6 text-left h-[49px] grid position-center text-[16px]  font-medium italic">{item.description}</p>
                 <p className="mt-6 w-full font-bold text-left text-[16px]">{item.date}</p>
                 <div className="w-full max-lg:[88%] max-md:w-[89%] flex justify-start">
                   <Link
                     to={item.link}
-                    className="mt-6 px-2 py-1 text-[14px] bg-[#545b62] text-white  rounded-sm "
+                    className="mt-6 px-2 py-1 text-[14px] bg-[#4b4b4b] hover:bg-[#565656] font-semibold text-white  rounded-sm "
                     target='_blank'
                   >
                     Read More
